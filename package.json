@@ -1,0 +1,28 @@
+{
+  "name": "node-qualical",
+  "version": "0.0.1",
+  "description": "Node Based Integration with QualiSystems Reservations",
+  "main": "server.js",
+  "dependencies": {
+    "bluebird": "^2.9.30",
+    "body-parser": "^1.13.0",
+    "express": "^4.12.4",
+    "google-auth-library": "^0.9.6",
+    "googleapis": "^2.0.5",
+    "moment": "^2.10.3",
+    "morgan": "^1.6.0",
+    "request": "^2.57.0",
+    "thinky": "^2.0.7",
+    "xml2js": "^0.4.9"
+  },
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-jshint": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Sam Womack",
+  "license": "ISC"
+}
